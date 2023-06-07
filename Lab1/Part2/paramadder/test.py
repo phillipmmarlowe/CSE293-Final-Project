@@ -1,6 +1,6 @@
 #################################################
 #
-# Adder gate test module
+# ParamAdder gate test module
 #
 #################################################
 from pymtl3 import *

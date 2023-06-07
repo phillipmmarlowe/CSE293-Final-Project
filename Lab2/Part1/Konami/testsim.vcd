@@ -1,0 +1,159 @@
+$date
+  Wed Jun  7 14:13:59 2023
+$end
+$version
+  PyMTL 3 (Mamba)
+$end
+$timescale
+ 10ps
+$end
+
+$scope module top $end
+  $var reg 1 ! start_i $end
+  $var reg 1 " reset $end
+  $var reg 1 # code_o $end
+  $var reg 1 $ a_i $end
+  $var reg 1 % reset_i $end
+  $var reg 1 & left_i $end
+  $var reg 1 ' up_i $end
+  $var reg 1 ( clk $end
+  $var reg 1 ) down_i $end
+  $var reg 1 * b_i $end
+  $var reg 1 + right_i $end
+$upscope $end
+$enddefinitions $end
+
+b0b0 !
+b0b0 "
+b0b0 #
+b0b0 $
+b0b0 %
+b0b0 &
+b0b0 '
+b0b0 (
+b0b0 )
+b0b0 *
+b0b0 +
+
+#0
+b0b1 (
+
+b0b1 "
+
+#50
+b0b0 (
+#100
+b0b1 (
+
+
+#150
+b0b0 (
+#200
+b0b1 (
+
+
+#250
+b0b0 (
+#300
+b0b1 (
+
+b0b0 "
+
+#350
+b0b0 (
+#400
+b0b1 (
+
+b0b1 '
+
+#450
+b0b0 (
+#500
+b0b1 (
+
+
+#550
+b0b0 (
+#600
+b0b1 (
+
+b0b0 '
+b0b1 )
+
+#650
+b0b0 (
+#700
+b0b1 (
+
+
+#750
+b0b0 (
+#800
+b0b1 (
+
+b0b1 &
+b0b0 )
+
+#850
+b0b0 (
+#900
+b0b1 (
+
+b0b0 &
+b0b1 +
+
+#950
+b0b0 (
+#1000
+b0b1 (
+
+b0b1 &
+b0b0 +
+
+#1050
+b0b0 (
+#1100
+b0b1 (
+
+b0b0 &
+b0b1 +
+
+#1150
+b0b0 (
+#1200
+b0b1 (
+
+b0b1 *
+b0b0 +
+
+#1250
+b0b0 (
+#1300
+b0b1 (
+
+b0b1 $
+b0b0 *
+
+#1350
+b0b0 (
+#1400
+b0b1 (
+
+b0b1 !
+b0b1 #
+b0b0 $
+
+#1450
+b0b0 (
+#1500
+b0b1 (
+
+b0b0 !
+b0b0 #
+b0b1 %
+
+#1550
+b0b0 (
+#1600
+b0b1 (
+
