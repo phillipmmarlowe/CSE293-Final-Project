@@ -16,7 +16,7 @@ module top
   // btn_async_unsafe_i, drive an output wire in led_o.
   //
   // Your code goes here
-  xor2
+  Xor2_noparam
   #()
   xor2_inst
   (.a_i(button_async_unsafe_i[1])

@@ -33,7 +33,7 @@ Successfully finished Verilog frontend.
 
 2. Executing Verilog-2005 frontend: xor2.sv
 Parsing SystemVerilog input from `xor2.sv' to AST representation.
-Storing AST representation for module `$abstract\xor2'.
+Storing AST representation for module `$abstract\Xor2_noparam'.
 Successfully finished Verilog frontend.
 
 -- Running command `synth_ice40 -top top -json top.json' --
@@ -102,17 +102,17 @@ Generating RTLIL representation for module `\top'.
 3.3.1. Analyzing design hierarchy..
 Top module:  \top
 
-3.3.2. Executing AST frontend in derive mode using pre-parsed AST for module `\xor2'.
-Generating RTLIL representation for module `\xor2'.
+3.3.2. Executing AST frontend in derive mode using pre-parsed AST for module `\Xor2_noparam'.
+Generating RTLIL representation for module `\Xor2_noparam'.
 
 3.3.3. Analyzing design hierarchy..
 Top module:  \top
-Used module:     \xor2
+Used module:     \Xor2_noparam
 
 3.3.4. Analyzing design hierarchy..
 Top module:  \top
-Used module:     \xor2
-Removing unused module `$abstract\xor2'.
+Used module:     \Xor2_noparam
+Removing unused module `$abstract\Xor2_noparam'.
 Removing unused module `$abstract\top'.
 Removed 2 unused modules.
 
@@ -259,10 +259,10 @@ Creating decoders for process `\SB_DFFE.$proc$/opt/oss-cad-suite/lib/../share/yo
      1/1: $0\Q[0:0]
 Creating decoders for process `\SB_DFF.$proc$/opt/oss-cad-suite/lib/../share/yosys/ice40/cells_sim.v:0$170'.
 Creating decoders for process `\SB_DFF.$proc$/opt/oss-cad-suite/lib/../share/yosys/ice40/cells_sim.v:271$169'.
-Creating decoders for process `\xor2.$proc$xor2.sv:0$381'.
+Creating decoders for process `\Xor2_noparam.$proc$xor2.sv:0$381'.
 
 3.4.8. Executing PROC_DLATCH pass (convert process syncs to latches).
-No latch inferred for signal `\xor2.\c_o' from process `\xor2.$proc$xor2.sv:0$381'.
+No latch inferred for signal `\Xor2_noparam.\c_o' from process `\Xor2_noparam.$proc$xor2.sv:0$381'.
 
 3.4.9. Executing PROC_DFF pass (convert process syncs to FFs).
 Creating register for signal `\SB_DFFNES.\Q' using process `\SB_DFFNES.$proc$/opt/oss-cad-suite/lib/../share/yosys/ice40/cells_sim.v:1414$241'.
@@ -363,15 +363,15 @@ Found and cleaned up 1 empty switch in `\SB_DFFE.$proc$/opt/oss-cad-suite/lib/..
 Removing empty process `SB_DFFE.$proc$/opt/oss-cad-suite/lib/../share/yosys/ice40/cells_sim.v:311$171'.
 Removing empty process `SB_DFF.$proc$/opt/oss-cad-suite/lib/../share/yosys/ice40/cells_sim.v:0$170'.
 Removing empty process `SB_DFF.$proc$/opt/oss-cad-suite/lib/../share/yosys/ice40/cells_sim.v:271$169'.
-Removing empty process `xor2.$proc$xor2.sv:0$381'.
+Removing empty process `Xor2_noparam.$proc$xor2.sv:0$381'.
 Cleaned up 18 empty switches.
 
 3.4.12. Executing OPT_EXPR pass (perform const folding).
-Optimizing module xor2.
+Optimizing module Xor2_noparam.
 Optimizing module top.
 
 3.5. Executing FLATTEN pass (flatten design).
-Deleting now unused module xor2.
+Deleting now unused module Xor2_noparam.
 <suppressed ~1 debug messages>
 
 3.6. Executing TRIBUF pass.
@@ -931,6 +931,6 @@ Found and reported 0 problems.
 3.50. Executing JSON backend.
 
 Warnings: 4 unique messages, 4 total
-End of script. Logfile hash: ad88e33bcb, CPU: user 0.49s system 0.04s, MEM: 21.64 MB peak
+End of script. Logfile hash: e8417b90af, CPU: user 0.47s system 0.16s, MEM: 21.80 MB peak
 Yosys 0.25+1 (git sha1 d3216593d, clang 10.0.0-4ubuntu1 -fPIC -Os)
-Time spent: 67% 15x read_verilog (0 sec), 15% 1x abc (0 sec), ...
+Time spent: 59% 15x read_verilog (0 sec), 19% 1x abc (0 sec), ...

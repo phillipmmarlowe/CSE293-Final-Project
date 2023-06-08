@@ -58,8 +58,8 @@ Info:     at initial placer iter 2, wirelen = 34
 Info:     at initial placer iter 3, wirelen = 34
 Info: Running main analytical placer, max placement attempts per cell = 10000.
 Info:     at iteration #1, type ICESTORM_LC: wirelen solved = 34, spread = 34, legal = 36; time = 0.00s
-Info: HeAP Placer Time: 0.03s
-Info:   of which solving equations: 0.00s
+Info: HeAP Placer Time: 0.02s
+Info:   of which solving equations: 0.02s
 Info:   of which spreading cells: 0.00s
 Info:   of which strict legalisation: 0.00s
 
@@ -100,9 +100,9 @@ Info: Setting up routing queue.
 Info: Routing 3 arcs.
 Info:            |   (re-)routed arcs  |   delta    | remaining|       time spent     |
 Info:    IterCnt |  w/ripup   wo/ripup |  w/r  wo/r |      arcs| batch(sec) total(sec)|
-Info:          3 |        0          3 |    0     3 |         0|       0.09       0.09|
+Info:          3 |        0          3 |    0     3 |         0|       0.00       0.00|
 Info: Routing complete.
-Info: Router1 time 0.09s
+Info: Router1 time 0.00s
 Info: Checksum: 0x56b546cf
 
 Info: Critical path report for cross-domain path '<async>' -> '<async>':

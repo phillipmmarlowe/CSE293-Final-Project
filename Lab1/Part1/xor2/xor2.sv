@@ -6,7 +6,7 @@
 // PyMTL Component Xor2 Definition
 // At /home/vboxuser/Desktop/CSE293-Final-Project/Lab1/Part1/xor2/xor2.py
 
-module xor2
+module Xor2_noparam
 (
   input  logic [0:0] a_i ,
   input  logic [0:0] b_i ,
