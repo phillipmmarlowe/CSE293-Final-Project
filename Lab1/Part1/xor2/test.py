@@ -1,6 +1,6 @@
 #################################################
 #
-# And gate test module
+# Xor2 gate test module
 #
 #################################################
 from pymtl3 import *
@@ -46,7 +46,7 @@ if(a.c_o != 0):
   print("expected c_o: "+ str(0) +" but got: "+ str(a.c_o) +" a_i: "+ str(a.a_i) +" b_i: "+ str(a.b_i))
   assert a.c_o == 0
 
-a.print_textwave()
+#a.print_textwave()
 print("-----------------------------------------------------------")
 print("PASS")
 print("-----------------------------------------------------------")
