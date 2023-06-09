@@ -15,6 +15,10 @@ class Fifo(Component):
     s.in_i = InPort(nbits)
     s.out_o = OutPort(nbits)
     s.data = []
+    '''
+    for x in range(length):
+      s.data.append(0)
+    '''
     #s.countin = 0
     s.countout = 0
 

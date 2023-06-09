@@ -20,7 +20,5 @@ class Xor2(Component):
     @update
     def xorblk():
       # YOUR CODE START
-      s.c_o @= s.a_i ^ s.b_i
-      # YOUR CODE END
 
 

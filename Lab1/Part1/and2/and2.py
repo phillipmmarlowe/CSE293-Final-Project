@@ -20,7 +20,5 @@ class And2(Component):
     @update
     def andblk():
       # YOUR CODE START
-      s.c_o @= s.a_i & s.b_i
-      # YOUR CODE END
 
 

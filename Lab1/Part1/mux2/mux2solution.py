@@ -19,5 +19,7 @@ class Mux2(Component):
     @update
     def andblk():
       # YOUR CODE START
+      s.c_o @= (s.a_i & s.s_i) | (s.b_i & ~s.s_i)
+      # YOUR CODE END
 
 
